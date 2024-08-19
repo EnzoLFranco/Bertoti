@@ -5,4 +5,5 @@ We see three critical differences between programming and software engineering: 
 O texto exemplifica as diferenças principais entre um engenheiro de software e um programador. O engenheiro tem sua preocupação direcionada para variaveis que podem afetar o projeto de maneira mais drástica como o tempo e escala das tarefas realizadas, o mesmo deve estar preparado para possívies mudanças de rumo no projeto. Também pe apresentado como, em organizações focadas em engenharia de software, os engenheiros devem se preocupar como as variaveis citadas anteriormente afetam tanto o projeto quando a organização. O engenheiro tem como função tomar as decisões de alto risco para o andamento dos softwares.
 
 # Exemplos de Trade-Off
-1. Desenvolver um 
+1. Desenvolver um projeto em determinada linguagem ao invés de outra: A escolha é feita pesando as qualidades e defeitos de ambas as lingugens, por exemplo, usar Java para um projeto pela portabilidade em um software ao invés de Kobol.
+2. 
