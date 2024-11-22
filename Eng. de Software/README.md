@@ -113,3 +113,7 @@ class Teste {
     }
 }
 ```
+
+# Modelo UML do código acima
+
+![Modelo_UML(Aviao e Hangar)](https://github.com/user-attachments/assets/06e76d74-161e-43ae-b93b-56ae7e4cfc61)
