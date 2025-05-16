@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cards API</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="script.js"></script>
+</head>
+<body>
+
+<h1>Cards API</h1>
+
+<div class="tabs">
+    <button class="tab-button active" onclick="showTab('createCard', this)">Criar Card</button>
+    <button class="tab-button" onclick="showTab('listCards', this)">Listar Cards</button>
+    <button class="tab-button" onclick="showTab('getCard', this)">Buscar Card</button>
+    <button class="tab-button" onclick="showTab('updateCard', this)">Atualizar Card</button>
+</div>
+
+<div id="createCard" class="tab-content">
+    <h2>Criar Novo Card</h2>
+    <form id="cardForm" onsubmit="event.preventDefault(); addCard();">
+        <input type="text" id="name" placeholder="Nome do Card" required />
+        <input type="text" id="type" placeholder="Tipo do Card" required />
+        <input type="text" id="description" placeholder="Descrição" required />
+        <button type="submit">Adicionar Card</button>
+    </form>
+</div>
+
+<div id="listCards" class="tab-content" style="display:none;">
+    <h2>Lista de Cards</h2>
+    <button onclick="fetchCards()">Carregar Cards</button>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Tipo</th>
+                <th>Descrição</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="cardList"></tbody>
+    </table>
+</div>
+
+<div id="getCard" class="tab-content" style="display:none;">
+    <h2>Buscar Card</h2>
+    <input type="text" id="searchId" placeholder="ID do Card" />
+    <button onclick="fetchCardById()">Buscar</button>
+    <div id="cardDetails"></div>
+</div>
+
+<div id="updateCard" class="tab-content" style="display:none;">
+    <h2>Atualizar Card</h2>
+    <input type="text" id="updateId" placeholder="ID do Card" />
+    <input type="text" id="updateName" placeholder="Novo Nome" />
+    <input type="text" id="updateType" placeholder="Novo Tipo" />
+    <input type="text" id="updateDescription" placeholder="Nova Descrição" />
+    <button onclick="updateCard()">Atualizar</button>
+</div>
+
+</body>
+</html>

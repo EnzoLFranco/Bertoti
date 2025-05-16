@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+}
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.tab-button {
+  background: #1abc9c;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 8px rgba(26, 188, 156, 0.5);
+}
+.tab-button:hover,
+.tab-button.active {
+  background: #16a085;
+  transform: scale(1.1);
+}
+.tab-content {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  width: 90%;
+  max-width: 900px;
+  margin-bottom: 3rem;
+  animation: fadeIn 0.5s ease forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  transition: box-shadow 0.3s ease;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #d0d0d0;
+  font-style: italic;
+}
+input[type="text"]:focus,
+textarea:focus {
+  box-shadow: 0 0 8px 2px #1abc9c;
+  background: rgba(255, 255, 255, 0.25);
+}
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+button {
+  background: #e67e22;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(230, 126, 34, 0.6);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+  background: #d35400;
+  transform: scale(1.05);
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+  font-size: 1rem;
+}
+thead tr {
+  background: #16a085;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-radius: 12px;
+}
+thead th {
+  padding: 1rem 1.2rem;
+  text-align: left;
+}
+tbody tr {
+  background: rgba(255, 255, 255, 0.15);
+  transition: background 0.3s ease;
+  border-radius: 12px;
+}
+tbody tr:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  padding: 1rem 1.2rem;
+  color: #f0f0f0;
+}
+.actions button {
+  background: #2980b9;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+  border-radius: 30px;
+  margin-right: 0.5rem;
+  box-shadow: 0 3px 8px rgba(41, 128, 185, 0.7);
+}
+.actions button:hover {
+  background: #1c5980;
+}
+@media (max-width: 700px) {
+  .tabs {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+  thead tr {
+    display: none;
+  }
+  tbody tr {
+    margin-bottom: 1.5rem;
+    background: #34495e;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+  tbody td {
+    padding-left: 50%;
+    position: relative;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  tbody td::before {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: 700;
+    content: attr(data-label);
+    color: #1abc9c;
+  }
+  .actions button {
+    margin-top: 0.7rem;
+    margin-right: 0;
+    width: 100%;
+  }
+  
+}
+
+#listCards table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px; /* espaço vertical entre linhas */
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+#listCards thead th {
+  padding: 1rem 1.5rem;
+  text-align: left;
+  color: white;
+  background: #16a085;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-radius: 8px 8px 0 0;
+}
+
+#listCards tbody td {
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  color: #f0f0f0;
+  border-radius: 8px;
+}
+
+#listCards tbody tr {}
+
+#listCards tbody tr:hover td {
+  background: rgba(255, 255, 255, 0.25);
+  transition: background 0.3s ease;
+}
