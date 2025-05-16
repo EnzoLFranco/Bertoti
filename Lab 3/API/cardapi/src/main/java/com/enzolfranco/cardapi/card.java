@@ -1,10 +1,15 @@
 package com.enzolfranco.cardapi;
 
+import javax.annotation.processing.Generated;
+import java.util.UUID;
+
 public class card {
     private String id;
     private String name;
     private String type;
     private String description;
+
+    public card(){    }
 
     public card(String id, String name, String type, String description) {
         this.id = id;
@@ -41,7 +46,7 @@ public class card {
         return description;
     }
 
-    public void setDescription(String descrition) {
-        this.description = descrition;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
