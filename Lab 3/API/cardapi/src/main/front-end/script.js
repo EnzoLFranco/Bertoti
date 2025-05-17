@@ -6,8 +6,6 @@ function showTab(tabId) {
     document.getElementById(tabId).style.display = "block";
 }
 
-//GET /cards
-
 function fetchCards() {
     fetch('http://localhost:8080/cards')
         .then(response => response.json())
