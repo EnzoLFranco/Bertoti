@@ -58,9 +58,9 @@ h1 {
 }
 
 .tab-button.active {
-  background: rgba(187, 134, 252, 0.15);
-  color: var(--primary);
-  font-weight: 600;
+    background: rgba(187, 134, 252, 0.15);
+    color: #bb86fc;
+    font-weight: 600;
 }
 
 .tab-content {

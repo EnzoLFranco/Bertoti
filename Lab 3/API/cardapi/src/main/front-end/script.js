@@ -2,8 +2,20 @@ function showTab(tabId) {
     document.querySelectorAll('.tab-content').forEach(tab => {
         tab.style.display = "none";
     });
-
-    document.getElementById(tabId).style.display = "block";
+    
+    const tabToShow = document.getElementById(tabId);
+    if (tabToShow) {
+        tabToShow.style.display = "block";
+    }
+    
+    document.querySelectorAll('.tab-button').forEach(button => {
+        button.classList.remove('active');
+    });
+    
+    const activeButton = document.querySelector(`.tab-button[onclick*="${tabId}"]`);
+    if (activeButton) {
+        activeButton.classList.add('active');
+    }
 }
 
 function fetchCards() {

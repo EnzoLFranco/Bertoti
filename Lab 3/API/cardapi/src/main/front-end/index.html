@@ -12,13 +12,13 @@
 <h1>Cards API</h1>
 
 <div class="tabs">
-    <button class="tab-button active" onclick="showTab('createCard', this)">Criar Card</button>
+    <button class="tab-button active" onclick="showTab('createCard')">Criar Card</button>
     <button class="tab-button" onclick="showTab('listCards')">Listar Cards</button>
-    <button class="tab-button" onclick="showTab('getCard', this)">Buscar Card</button>
-    <button class="tab-button" onclick="showTab('updateCard', this)">Atualizar Card</button>
+    <button class="tab-button" onclick="showTab('getCard')">Buscar Card</button>
+    <button class="tab-button" onclick="showTab('updateCard')">Atualizar Card</button>
 </div>
 
-<div id="createCard" class="tab modern-tabs" style="display:none;">
+<div id="createCard" class="tab-content" style="display:block;">
     <h2>Criar Novo Card</h2>
     <form id="cardForm" onsubmit="event.preventDefault(); addCard();">
         <input type="text" id="name" placeholder="Nome do Card" required />
@@ -28,7 +28,7 @@
     </form>
 </div>
 
-<div id="listCards" class="tab modern-tabs" style="display:none;">
+<div id="listCards" class="tab-content" style="display:none;">
     <h2>Lista de Cards</h2>
     <button onclick="fetchCards()">Carregar Cards</button>
     <table>
@@ -45,14 +45,14 @@
     </table>
 </div>
 
-<div id="getCard" class="tab modern-tabs" style="display:none;">
+<div id="getCard" class="tab-content" style="display:none;">
     <h2>Buscar Card</h2>
     <input type="text" id="searchId" placeholder="ID do Card" />
     <button onclick="fetchCardById()">Buscar</button>
     <div id="cardDetails"></div>
 </div>
 
-<div id="updateCard" class="tab modern-tabs" style="display:none;">
+<div id="updateCard" class="tab-content" style="display:none;">
     <h2>Atualizar Card</h2>
     <input type="text" id="updateId" placeholder="ID do Card" />
     <input type="text" id="updateName" placeholder="Novo Nome" />
