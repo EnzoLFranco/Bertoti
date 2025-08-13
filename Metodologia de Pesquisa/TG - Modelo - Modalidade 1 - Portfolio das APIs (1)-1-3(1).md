@@ -15,7 +15,7 @@ Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maio
 ## Meus Projetos
 
 ### Em 2021-2
-Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
+O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas posteriormente no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave
 
 [GIT](https://www.git.com)
 
