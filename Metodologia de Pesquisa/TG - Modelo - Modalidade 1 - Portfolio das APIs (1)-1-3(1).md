@@ -1,4 +1,4 @@
-# Coloque seu nome aqui
+# Enzo Lemos Franco
 
 ## Introdução
 
@@ -15,7 +15,7 @@ Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maio
 ## Meus Projetos
 
 ### Em 2021-2
-O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas posteriormente no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave
+O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas posteriormente no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave e o problema a ser resolvido era a dificuldade da administração e controle dos pontos cadastrados por trabalhadores de empresas terceirizadas em estações de manutenção de navios. Como citado anteriormente, a solução entregue foi o sistema de registro de pontos com cadastro de empresas, seus funcionários, os pontos em questão e os contratos entre as empresas e os colaboradores, delimitando o tempo pelo qual os colaboradores atuarão.
 
 [GIT](https://www.git.com)
 
