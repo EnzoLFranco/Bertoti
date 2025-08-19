@@ -20,7 +20,12 @@ O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizan
 [GIT](https://www.git.com)
 
 #### Tecnologias Utilizadas
-Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
+- Java: É a linguagem de programação usada para construir a lógica de negócio do sistema, sendo utilizada prioritariamente no back-end. Sua robustez garante a confiabilidade das regras de registro de ponto.
+- Spring Boot: Atua como o esqueleto do back-end, acelerando o desenvolvimento de APIs REST para gerenciar os dados de registro e espelho de ponto, sendo o principal framework usado na linguagem Java.
+- PostgreSQL: É o banco de dados que armazena de forma segura todos os registros de ponto e informações dos funcionários, garantindo a integridade dos dados.
+- Vue.js: Framework de Javascript, é reponsável por ciar a interface do usuário, permitindo que os funcionários e gestores interajam com o sistema de forma dinâmica e intuitiva para registrar e visualizar os pontos.
+- Ant Design Vue: Fornece um conjunto de componentes visuais prontos, garantindo uma interface profissional e consistente, o que melhora a usabilidade do sistema de registro de ponto.
+- Docker: Empacota todas as partes do projeto (back-end, front-end e banco de dados) em contêineres, facilitando a implantação e garantindo que o sistema funcione perfeitamente em qualquer ambiente.
 
 #### Contribuições Pessoais
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
