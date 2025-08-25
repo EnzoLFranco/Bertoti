@@ -4,7 +4,7 @@ public class Main {
         Funcionario desenvolvedor = new Desenvolvedor("Bob");
         Funcionario estagiario = new Estagiario("Carlos");
 
-        gerente.trabalhar(); 
+        gerente.trabalhar();
         desenvolvedor.trabalhar();
         estagiario.trabalhar();
     }
