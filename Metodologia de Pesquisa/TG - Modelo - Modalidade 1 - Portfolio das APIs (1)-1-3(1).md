@@ -28,10 +28,28 @@ O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizan
 - Docker: Empacota todas as partes do projeto (back-end, front-end e banco de dados) em contêineres, facilitando a implantação e garantindo que o sistema funcione perfeitamente em qualquer ambiente.
 
 #### Contribuições Pessoais
-Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
+Atuando como Desenvolvedor Full-Stack, minhas contribuições se concentraram na construção da interface de usuário e na garantia da comunicação com a API. Fui responsável por:
+
+* **Desenvolvimento do Módulo de Funcionários em Vue.js:** Criei as principais interfaces para o gerenciamento de funcionários, incluindo:
+  * A tela de visualização e edição, com validações para garantir a integridade dos dados.
+  * Um modal integrado para o cadastro e atribuição de cargos (funções), simplificando o fluxo de trabalho do usuário.
+  * Ajustes de navegação, como a implementação de um hyperlink para acesso rápido à edição, e correções de responsividade para garantir consistência visual.
+
+* **Reestruturação da API de Contratos:** Após diagnosticar uma falha de comunicação entre o front-end e o back-end, assumi a tarefa de refatorar a API. Utilizando **Java com Spring Boot**, reestruturei os endpoints, ajustei a `entity` de Contrato, os DTOs (request/response) e os DAOs. Essa intervenção foi crucial para viabilizar a integração e o funcionamento correto do módulo de contratos.
 
 #### Hard Skills
-Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível de proficiência alcançado. Exemplo: CSS - Sei fazer com autonomia
+
+* **Vue.js (JavaScript, HTML, CSS):** Nível Intermediário/Autônomo
+    * *Demonstração:* Desenvolvi de forma autônoma as telas de visualização e edição de funcionários, incluindo a criação de componentes reativos como o modal de cadastro de função e a implementação de validações de formulário.
+
+* **Java com Spring Boot:** Nível Avançado
+    * *Demonstração:* Adquiri conhecimento avançado na construção da arquitetura da API REST, sendo responsável por criar `controllers`, `services`, `entities` com JPA, e por estruturar DTOs e DAOs para a correta manipulação e transferência de dados entre o cliente e o servidor.
+
+* **PostgreSQL e SQL:** Nível Intermediário
+    * *Demonstração:* Superei o conhecimento básico em SQL, realizando consultas para suportar as funcionalidades da API e modelando as entidades do banco de dados para garantir a persistência correta das informações de contratos e funcionários.
+
+* **Docker:** Nível Básico
+    * *Demonstração:* Tive a experiência de utilizar Docker para empacotar e executar a aplicação em um ambiente containerizado, compreendendo os conceitos básicos de imagens e contêineres para o desenvolvimento local.
 
 #### Soft Skills
 Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
