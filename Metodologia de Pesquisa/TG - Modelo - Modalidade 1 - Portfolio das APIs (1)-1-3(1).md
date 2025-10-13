@@ -2,19 +2,47 @@
 
 ## Introdução
 
-Faça uma breve introdução sobre você. Fale de sua formação e carreira. Caso aplicável, fale de publicações ou apresentações em eventos da área de computação. Inclua uma foto!
+Sou Enzo Lemos Franco, estudante de Tecnologia em Banco de Dados pela Fatec São José dos Campos e desenvolvedor Back‑End com foco em Java e Spring Boot. Minha trajetória em TI começou pelo curso técnico em Informática. 
 
 ## Contatos
-* [GIT](https://www.git.com)
-* [LinkedIn](https://www.linkedin.com)
+* [GitHub](https://github.com/EnzoLFranco)
+* [LinkedIn](https://www.linkedin.com/in/enzo-lemos-franco/)
 
-## Meus Principais Conhecimentos
-Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maior domínio e que deseja desenvolver durante sua carreira.
+## Meus principais Conhecimentos
+Abaixo apresento as tecnologias e conhecimentos que compõem minha stack principal, com um resumo da minha experiência prática e dos objetivos que busco desenvolver profissionalmente.
+
+### Stack principal
+- Linguagem: Java (Back‑End)
+- Framework: Spring Boot (APIs REST, controllers, services)
+- Bancos de dados relacionais: MySQL e PostgreSQL
+- Controle de versão: Git / GitHub
+- Build e dependências: Maven
+- Contêineres / DevOps básicos: Docker
+
+### Experiência prática (resumo)
+- Desenvolvimento e manutenção de APIs REST em Java com Spring Boot, incluindo desenho de endpoints, DTOs e camadas de serviço.
+- Modelagem e integração com bancos relacionais (PostgreSQL em projetos acadêmicos/profissionais) e migração/uso de MySQL quando necessário.
+- Refatoração de APIs para corrigir falhas de comunicação entre front‑end e back‑end (ex.: reestruturação da API de contratos do projeto de ponto).
+- Implementação de funcionalidades de back‑end que suportaram interfaces em Vue.js (integração via endpoints REST).
+- Uso rotineiro de Git/GitHub para versionamento, colaboração e gestão de branches.
+
+### Ferramentas e práticas
+- Testes básicos de endpoints (manualmente e com ferramentas de requisição HTTP)
+- Uso de JPA/Hibernate para mapeamento objeto-relacional e transações
+- Familiaridade com metodologias ágeis (Scrum e Kanban)
+- Conhecimento prático de Docker para empacotamento e execução local de serviços
+
+### Objetivos de desenvolvimento
+- Consolidar experiência em design de APIs escaláveis e resilientes.
+- Avançar em práticas de testes automatizados (unit e integration tests) e CI/CD.
+- Aproximar-me de responsabilidades de arquitetura de sistemas e melhores práticas para deploy em produção.
+
+Se quiser, adapto essa seção para um formato mais conciso (para CV) ou mais detalhado (incluindo exemplos de endpoints, trechos de código e links para commits relevantes no `GitHub`).
 
 
 ## Meus Projetos
 
-### Em 2021-2
+### Em 2025-2
 O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas posteriormente no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave e o problema a ser resolvido era a dificuldade da administração e controle dos pontos cadastrados por trabalhadores de empresas terceirizadas em estações de manutenção de navios. Como citado anteriormente, a solução entregue foi o sistema de registro de pontos com cadastro de empresas, seus funcionários, os pontos em questão e os contratos entre as empresas e os colaboradores, delimitando o tempo pelo qual os colaboradores atuarão.
 
 [GIT](https://www.git.com)
