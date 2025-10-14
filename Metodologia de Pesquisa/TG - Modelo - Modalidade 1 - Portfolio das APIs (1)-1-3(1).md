@@ -7,37 +7,8 @@ Sou Enzo Lemos Franco, estudante de Tecnologia em Banco de Dados pela Fatec São
 ## Contatos
 * [GitHub](https://github.com/EnzoLFranco)
 * [LinkedIn](https://www.linkedin.com/in/enzo-lemos-franco/)
-
-## Meus principais Conhecimentos
-Abaixo apresento as tecnologias e conhecimentos que compõem minha stack principal, com um resumo da minha experiência prática e dos objetivos que busco desenvolver profissionalmente.
-
-### Stack principal
-- Linguagem: Java (Back‑End)
-- Framework: Spring Boot (APIs REST, controllers, services)
-- Bancos de dados relacionais: MySQL e PostgreSQL
-- Controle de versão: Git / GitHub
-- Build e dependências: Maven
-- Contêineres / DevOps básicos: Docker
-
-### Experiência prática (resumo)
-- Desenvolvimento e manutenção de APIs REST em Java com Spring Boot, incluindo desenho de endpoints, DTOs e camadas de serviço.
-- Modelagem e integração com bancos relacionais (PostgreSQL em projetos acadêmicos/profissionais) e migração/uso de MySQL quando necessário.
-- Refatoração de APIs para corrigir falhas de comunicação entre front‑end e back‑end (ex.: reestruturação da API de contratos do projeto de ponto).
-- Implementação de funcionalidades de back‑end que suportaram interfaces em Vue.js (integração via endpoints REST).
-- Uso rotineiro de Git/GitHub para versionamento, colaboração e gestão de branches.
-
-### Ferramentas e práticas
-- Testes básicos de endpoints (manualmente e com ferramentas de requisição HTTP)
-- Uso de JPA/Hibernate para mapeamento objeto-relacional e transações
-- Familiaridade com metodologias ágeis (Scrum e Kanban)
-- Conhecimento prático de Docker para empacotamento e execução local de serviços
-
-### Objetivos de desenvolvimento
-- Consolidar experiência em design de APIs escaláveis e resilientes.
-- Avançar em práticas de testes automatizados (unit e integration tests) e CI/CD.
-- Aproximar-me de responsabilidades de arquitetura de sistemas e melhores práticas para deploy em produção.
-
-Se quiser, adapto essa seção para um formato mais conciso (para CV) ou mais detalhado (incluindo exemplos de endpoints, trechos de código e links para commits relevantes no `GitHub`).
+## Meus Principais Conhecimentos
+Minha stack principal inclui Java (Back‑End) com Spring Boot, bancos relacionais MySQL e PostgreSQL (modelagem e integração via JPA/Hibernate), gerenciamento de dependências com Maven, controle de versão com Git/GitHub e uso de Docker para empacotamento. Tenho experiência prática no desenvolvimento e manutenção de APIs REST em Java/Spring Boot, além de integração com front‑end em Vue.js, modelagem de dados e uso rotineiro de Git para colaboração. Sou familiarizado com práticas ágeis (Scrum e Kanban) e uso de JPA/Hibernate para transações. Busco consolidar experiência em design de APIs escaláveis, avançar em testes automatizados e CI/CD, e assumir responsabilidades de arquitetura e deploy em produção.
 
 
 ## Meus Projetos
@@ -82,20 +53,11 @@ Atuando como Desenvolvedor Full-Stack, minhas contribuições se concentraram na
 #### Soft Skills
 Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
 
-### Em 2022-1
+### Em 2025-2
 Mesmo formato
 
-### Em 2022-2
+### Em 2026-1
 Mesmo formato
 
-### Em 2023-1
+### Em 2026-2
 Mesmo formato
-
-### Em 2023-2
-Mesmo formato
-
-
-
-
-
-
