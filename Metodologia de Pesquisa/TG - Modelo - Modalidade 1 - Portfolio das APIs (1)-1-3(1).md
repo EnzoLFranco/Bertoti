@@ -51,7 +51,11 @@ Atuando como Desenvolvedor Full-Stack, minhas contribuições se concentraram na
     * *Demonstração:* Tive a experiência de utilizar Docker para empacotar e executar a aplicação em um ambiente containerizado, compreendendo os conceitos básicos de imagens e contêineres para o desenvolvimento local.
 
 #### Soft Skills
-Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
+Ao longo dos projetos desenvolvidos, pratiquei e aperfeiçoei as seguintes soft skills:
+
+- Comunicação: Me comunicava regularmente com todo o time para alinhar prioridades, identificar impedimentos e explicar soluções de forma clara para colegas com níveis de experiência distintos.
+- Trabalho em equipe: acompanhei o andamento dos cards do time, ofereci suporte quando possível e pedi ajuda quando necessário, sempre buscando aprender com membros mais experientes.
+- Proatividade: adotei postura proativa na identificação e resolução de problemas, contribuindo para antecipar obstáculos e integrar soluções de forma mais eficiente.
 
 ### Em 2025-2
 Mesmo formato
