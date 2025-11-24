@@ -46,7 +46,4 @@ classDiagram
     %% O Adapter envolve (compõe) a classe legada
     AdapterAlmoco --> AlmocoLegacy : adapta
 
-    %% Notas explicativas no diagrama
-    note for AdapterAlmoco "Tradução de Interface:\ngetDescricao() -> obterNomeDoPrato()\ngetCalorias() -> (int) obterEnergia() * 0.239"
-
 ```
